@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1904","navigate to DropDown page","chromium","Fri Aug 22 14:32:43 CEST 2025","passed","Fri Aug 22 14:32:44 CEST 2025","Navigation Left Panel Tests","NavigationPageTest.spec.ts","",""
+"","1952","navigate to RadioButton page","chromium","Fri Aug 22 14:32:41 CEST 2025","passed","Fri Aug 22 14:32:42 CEST 2025","Navigation Left Panel Tests","NavigationPageTest.spec.ts","",""
+"","2829","navigate to CheckBox page","chromium","Fri Aug 22 14:32:36 CEST 2025","passed","Fri Aug 22 14:32:39 CEST 2025","Navigation Left Panel Tests","NavigationPageTest.spec.ts","",""
