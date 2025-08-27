@@ -46,6 +46,14 @@ jobs:
                   name: allure-report
                   path: allure-report
                   retention-days: 30
+
+            - name: Publish Allure report to GitHub Pages
+              if: always()
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: allure-report
+                  publish_branch: gh-pages
             # --- Allure bits end here ---
 
             # You can keep Playwright’s own report too (optional)
