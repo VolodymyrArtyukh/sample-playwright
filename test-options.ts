@@ -1,4 +1,3 @@
-// test-options.ts
 import { test as base, expect } from '@playwright/test';
 import { NavigationPage } from './pages/NavigationPage';
 
